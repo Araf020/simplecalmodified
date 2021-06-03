@@ -1,0 +1,42 @@
+At line No.1  type_specifier: INT
+
+At line No.1  id: ID
+
+x,
+
+At line No.1  declaration_list: id 
+
+At line No.1  id: ID
+
+y
+
+At line No.1  declaration_list:  declaration_list COMMA id
+
+At line No.1  id: ID
+
+z
+
+At line No.1  declaration_list:  declaration_list COMMA id
+
+At line No.1 var_declaration: type_specifier declaration_list SEMICOLON
+
+At line No.1 unit: var declaration
+
+At line No.1 program: unit
+
+At line No.1 type_specifier: FLOAT
+
+At line No.1  id: ID
+
+a;
+
+At line No.1  declaration_list: id 
+
+At line No.1 var_declaration: type_specifier declaration_list SEMICOLON
+
+At line No.1 unit: var declaration
+
+At line No.1 program: program unit
+
+At line No.1 start: program
+
